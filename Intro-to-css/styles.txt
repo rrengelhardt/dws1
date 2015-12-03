@@ -1,0 +1,26 @@
+Children of the body element 
+
+	font-family: Arial, Verdana, sans-serif;
+	
+Id of "container"
+
+	border: 1px solid #665544;
+	background-color: #efefef;
+	padding: 10px;
+
+Headings
+
+	color: #ee3e80
+
+Paragraphs
+	
+	color: #665544
+	
+Strong element
+
+	color: green;
+
+
+Em elements
+
+	color: violet;

@@ -1,0 +1,46 @@
+h1 {
+	font-family: Georgia, Times, serif;
+	font-size: 250%;
+	text-shadow: 2px 2px 0px #666666;
+	}
+h2 {
+	font-family: "Gil Sans", Arial, sans-serif;
+	font-size: 90%;
+	text-transform: uppercase;
+	}
+h3 {
+	font-size: 150%;
+	}
+p {
+	font-family: Arial, Verdana, sans-serif;
+	}
+h1, h2, h3, a:link {
+	font-weight: normal;
+	}
+p#intro {
+	font-weight: bold;
+	}
+p#credits {
+	font-style: italic;
+	text-align: right;
+	}
+p {
+	line-height: 1.4em;
+	}
+a:link {
+	text-decoration: none;
+	}
+a:hover {
+	text-decoration: underline;
+	}
+/*
+	<body>
+    	<h1>Pumpkin Chucking</h1>
+ 		<h2>Punkin Chunkin</h2>
+        <p id="intro"><a href="http://en.wikipedia.org/wiki/Punkin_Chunkin">Pumpkin Chucking</a>, or for rhyming purposes Punkin Chunkin is the sport of hurling or 'chucking' a pumpkin solely by mechanical means for distance. The devices used include slingshots, catapults, centrifugals, trebuchets, and pneumatic cannons.</p>
+		<h3>World Championship Punkin Chunkin</h3>
+		<p>World Championship Punkin Chunkin (WCPC) is the name of an annual pumpkin chunkin contest held the first full weekend after Halloween in Sussex County, Delaware. It is governed by the World Championship Punkin Chunkin Association (WCPCA).</p>
+		<p id="credits">From Wikipedia, the free encyclopedia</p>
+	</body>
+	
+	*/

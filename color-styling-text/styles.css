@@ -1,0 +1,20 @@
+p.four {
+	background-color: rgb(117,170,219);
+	color: rgb(0,0,0);
+}
+p.three {
+	background-color: rgb(0,45,114);
+	color: rgb(255,255,255);
+}
+p.two {
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+}
+p.one {
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
+}
+p.zero {
+	background-color: rgb(150,150,150);
+	color: rgb(0,0,0);
+}

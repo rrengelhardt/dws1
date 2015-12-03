@@ -1,0 +1,25 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+}	
+
+#container {
+	border: 1px solid #665544;
+	background-color: #efefef;
+	padding: 10px;
+}
+
+h1, h2, h3 {
+	color: #ee3e80;
+}
+
+p {	
+	color: #665544;
+}
+
+strong {
+	color: green;
+}
+
+Em {
+	color: violet;
+}
