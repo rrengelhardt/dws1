@@ -32,7 +32,7 @@ div#page {
 	background-color: rgb(200, 200, 200);
 	}
 	
-/* display the unordered list items inline */
+/* display the unordered list items inline for the navigation */
 ul li {
 	display: inline;
 	margin-right: 10px;
@@ -96,7 +96,7 @@ h2#top10 {
 	text-align: center;
 	}
 	
-/* use a shadow for the gallery heading */
+/* use a text shadow for the gallery heading */
 h2#gallery {
 	background-color: #cccccc;
 	color: #ffffff;
