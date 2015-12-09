@@ -7,11 +7,11 @@ body {
 		
 ul#navigation {
 	list-style-type: none;
-	text-align: center;
+	text-align: left;
 	}
 
 p {
-	text-align: center;
+	text-align: left;
 	}
 	
 a {
@@ -40,6 +40,21 @@ div#logo {
 	margin: 10px 10px 25px 25px;
 /*	margin: 10px auto 25px auto; */
 	}
+
+div#gallery_content {
+	width: 500px;
+	margin: 20px auto 20px auto;
+/*	margin: 10px auto 25px auto; */
+	}	
+	
+div.entry {
+	font-size 70%;
+	width: 220px;
+	height: 220px;
+	float left;
+	margin: 10px;
+	background: #ffffff url("images/shadow.png") no-repeat center bottom;
+	}
 	
 ul {
 	width: 625px;
@@ -62,8 +77,13 @@ li#navigation {
 	
 p#content {
 	width: 600px;
-	margin: 20px;
+	margin: 0px 20px 20px 0px;
 /*	margin: 20px auto 20px auto; */
+	}
+	
+img#cafe-front {
+	float: left;
+	margin: 0px 20px 20px 0px;
 	}
 	
 h1 {
@@ -76,24 +96,33 @@ h2 {
 
 h3 {
 	font-size: 125%;
+	}
+	
+div#column1of2 {
+	float: left;
+	width: 280;
+	margin: 10px;
 	}	
-/*	
-		<body>
-		<div id="page">
-			<div id="logo">
-				<img src="images/logo.png" alt="Cafe Vincze" />
-			</div><!-- Closes logo div -->
-			<div id="navigation">
-				<ul>
-					<li><a href="#" id="current-page">Home</a></li>
-					<li><a href="#">Menu</a></li>
-					<li><a href="#">Location</a></li>
-					<li><a href="#">Gallery</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div><!-- Closes navigation div -->			
-			<p><img src="images/cafe_front.jpg" alt="Store front" /></p>
-			<p>Cafe Vincze is an authentic Italian restaurant that offers outstanding Italian dining. Dine with family and friends while enjoying the Italian traditions of food, friendship and hospitality.</p>
-		</div><!-- Closes page div -->
-	</body>	
+
+figure {
+	width: 202px;
+	height: 193px;
+	margin: 0px;
+	padding: 9px;
+	background-color: e7e3d8;
+	}
+	
+figure img {
+	width: 200px;
+	height: 150px;
+	border: 1px solid #8c9c9e;
+	}
+	
+figcaption {
+	padding: 5px 0px 0px 25px;
+	background: #ffffff url("images/icon.png") no-repeat center bottom;
+/*
+	background-image: url("images/icon.png");
+	background-repeat: no-repeat;
 */
+	}

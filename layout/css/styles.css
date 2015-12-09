@@ -1,0 +1,122 @@
+body {
+	font-size: 80%;
+	font-family: Arial, Verdana, sans-serif;
+	letter-spacing: 0.15em;	
+	background-color: #efefef;
+	}
+		
+ul#navigation {
+	list-style-type: none;
+	text-align: left;
+	}
+
+p {
+	text-align: left;
+	}
+	
+a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	}
+	
+a:hover, a#current-page {
+	color: #cc3333;
+	background-color: #ffffff;
+	}
+	
+div#page {
+	width: 960px;
+	border-width: 4px 4px 4px 4px;
+	border-style: double;
+	border-color: #000;
+	padding: 20px;
+	margin 10px;
+/*	margin: 10px auto 10px auto; */
+	}
+	
+div#logo {
+	width: 303px;
+	margin: 10px 10px 25px 25px;
+/*	margin: 10px auto 25px auto; */
+	}
+	
+ul {
+	width: 625px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	padding: 15px;
+	margin: 0px;
+/*	margin: 0px auto 0px auto; */
+	}
+
+li#navigation {
+	margin: 0px;
+/*	margin: 0px 3px 0px 3px; */
+	display: inline;
+	}
+	
+p#content {
+	width: 600px;
+	margin: 0px 20px 20px 0px;
+/*	margin: 20px auto 20px auto; */
+	}
+	
+img#cafe-front {
+	float: left;
+	margin: 0px 20px 20px 0px;
+	}
+	
+h1 {
+	font-size: 150%;
+	}
+	
+h2 {
+	font-size: 133%;
+	}
+
+h3 {
+	font-size: 125%;
+	}
+	
+div#column1of2 {
+	float: left;
+	width: 280;
+	margin 10px;
+	}	
+/*	
+				<div id="column1of2">
+					<h3>From the North:</h3>
+					<ol>
+						<li>Head South on I-4 W.</li>
+						<li>Take exit 87 for Fairbanks Ave.</li>
+						<li>Keep left at the fork, follow signs for Winter Park/FL-426 E.</li>
+						<li>Turn left at W Fairbanks Ave.</li>
+						<li>Continue onto Osceola Ave.</li>
+						<li>Continue onto Brewer Ave.</li>
+						<li>Brewer Ave turns slightly right and becomes Aloma Ave/FL-426 E.</li>
+						<li>Turn right at FL-436 E/Semoran Blvd.</li>
+						<li>Turn left at University Blvd, we will be on the right.</li>
+					</ol>
+				</div><!-- /column1of2 -->
+				<div id="column2of2">
+					<h3>From the South:</h3>
+					<ol>
+						<li>Head Northeast on I-4 W.</li>
+						<li>Take exit 85 for Princeton St.</li>
+						<li>Turn right at E Princeton St.</li>
+						<li>Turn left at N Orange Ave.</li>
+						<li>Continue onto W Fairbanks Ave.</li>
+						<li>Continue onto Osceola Ave.</li>
+						<li>Continue onto Brewer Ave.</li>
+						<li>Brewer Ave turns slightly right and becomes Aloma Ave/FL-426 E.</li>
+						<li>Turn right at FL-436 E/Semoran Blvd.</li>
+						<li>Turn left at University Blvd, we will be on the right.</li>
+					</ol>
+				</div><!-- /column2of2 -->
+				
+				*/
