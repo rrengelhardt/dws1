@@ -26,9 +26,9 @@ body {
 
 	}
 
-/* set values for the page and add a background image */
+/* add a background image, set values for the page */
 div#page {
-	background-image: url("Images/dark-spade.png");
+	background-image: url("Images/pattern_158.gif");
 	background-repeat: repeat;
 	background-attachment: fixed;
 	width: 60em;
@@ -43,12 +43,13 @@ div#page {
 	opacity: 0.9;
 		}
 	
-	/* clear floats, increase the line-height for paragraphs and add a background image */
+/* clear floats, increase the line-height for paragraphs and add a background image */
 p {
 	clear: both;
 	line-height: 1.2em;
-	background-image: url("Images/icon.png");
+	background-image: url("Images/dark-spade.png");
 	background-repeat: no-repeat;
+	background-position: center top;
 	}
 		
 /* choose font for h2 headings, clear floats */
