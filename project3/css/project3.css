@@ -11,11 +11,6 @@ h1, h3 {
 
 /* choose font for the body */
 body {
-/* background: white url("Images/logo.png") repeat right;	*/
-/*	background-image: url("Images/dark-spade.png");
-	background-repeat: repeat-x; */
-/*
-	background-attachment: fixed; */
 	font-family: Arial, sans-serif;
 /* This is where the gradient is made */
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+43,000000+99&0+56,0+56,0+66,0.65+99 */
@@ -31,7 +26,6 @@ div#page {
 	background-image: url("../Images/pattern_158.gif");
 	background-repeat: repeat;
 	background-attachment: fixed;
-
 	width: 60em;
 	border: .25em double #000;
 	padding: 1.25em;
@@ -41,7 +35,7 @@ div#page {
 	opacity: 0.9;
 	}
 	
-/* clear floats, increase the line-height for paragraphs and add a background image */
+/* clear floats, increase the line-height for paragraphs */
 p {
 	clear: both;
 	line-height: 1.2em;
@@ -102,7 +96,8 @@ a:active {
 	clear: both;
 	}
 	
-/* indent the first paragraph */
+/* indent the first paragraph and add a background image to show in the top left where
+   the indent is */
 p#firstparagraph {
 	text-indent: 1.56em;
     background: transparent url("../Images/icon.png") no-repeat left top;
