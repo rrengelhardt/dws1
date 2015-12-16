@@ -1,0 +1,145 @@
+body {
+	font-size: 80%;
+	font-family: Arial, Verdana, sans-serif;
+	letter-spacing: 0.15em;	
+	background-color: #efefef;
+	}
+		
+ul#navigation {
+	list-style-type: none;
+	text-align: left;
+	}
+
+p {
+	text-align: left;
+	}
+	
+a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	}
+	
+a:hover, a#current-page {
+	color: #cc3333;
+	background-color: #ffffff;
+	}
+	
+div#page {
+	width: 960px;
+	border-width: 4px 4px 4px 4px;
+	border-style: double;
+	border-color: #000;
+	padding: 20px;
+	margin 10px;
+/*	margin: 10px auto 10px auto; */
+	}
+	
+div#logo {
+	width: 303px;
+	margin: 10px 10px 25px 25px;
+/*	margin: 10px auto 25px auto; */
+	}
+
+div#gallery_content {
+	width: 500px;
+	margin: 20px auto 20px auto;
+/*	margin: 10px auto 25px auto; */
+	}	
+	
+div.entry {
+	font-size 70%;
+	width: 220px;
+	height: 220px;
+	float left;
+	margin: 10px;
+	background: #ffffff url("images/shadow.png") no-repeat center bottom;
+	}
+	
+ul {
+	width: 625px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	padding: 15px;
+	margin: 0px;
+/*	margin: 0px auto 0px auto; */
+	}
+
+li#navigation {
+	margin: 0px;
+/*	margin: 0px 3px 0px 3px; */
+	display: inline;
+	}
+	
+p#content {
+	width: 600px;
+	margin: 0px 20px 20px 0px;
+/*	margin: 20px auto 20px auto; */
+	}
+	
+img#cafe-front {
+	float: left;
+	margin: 0px 20px 20px 0px;
+	}
+	
+h1 {
+	font-size: 150%;
+	}
+	
+h2 {
+	font-size: 133%;
+	}
+
+h3 {
+	font-size: 125%;
+	}
+	
+div#column1of2 {
+	float: left;
+	width: 280;
+	margin: 10px;
+	}	
+
+figure {
+	width: 202px;
+	height: 193px;
+	margin: 0px;
+	padding: 9px;
+	background-color: e7e3d8;
+	}
+	
+figure img {
+	width: 200px;
+	height: 150px;
+	border: 1px solid #8c9c9e;
+	}
+	
+figcaption {
+	padding: 5px 0px 0px 25px;
+	}
+	
+table {
+	background-color: #e0e9f0;
+	border: 0px;
+	}
+	
+th {
+	text-align: left;
+	}
+	
+th, td {
+	padding: 5px 30px 5px 10px;
+	font-size: 90%;
+	border-top: 1px solid #f1f8fe;
+	border-bottom: 1px solid #cbd2d8;
+	border-right: 1px solid #cbd2d8;
+	text-shadow: 1px 1px 1px #fff;
+	}
+	
+tr.even {
+	background-color: #ffffff;
+	}

@@ -1,0 +1,104 @@
+/* add a web based font */
+@font-face {
+	font-family: "introrustg-base2line";
+	src: url("Fonts/introrustg-base2line.otf");
+	}
+	
+/* choose font for headings h1, h2 */
+h1, h3 {
+	font-family: introrustg-base2line, Georgia, serif;
+	}
+
+/* choose font for the body */
+body {
+	font-family: Arial, sans-serif;
+	}
+	
+/* choose font for h2 headings */
+h2 {
+	font-family: Times, serif;
+	}
+
+
+/* set values for the page */
+div#page {
+	width: 960px;
+	border-width: 4px;
+	border-style: double;
+	border-color: #000;
+	padding: 20px;
+	margin: 10px auto 10px auto;
+	color: rgb(40, 61, 89);
+	background-color: rgb(200, 200, 200);
+	}
+	
+/* display the unordered list items inline for the navigation */
+ul li {
+	display: inline;
+	margin-right: 10px;
+	}
+
+/* change the properties for links */
+a:link {
+	color: #81521C;
+	}
+a:visited {
+	color: #000;
+	}
+a:hover {
+	color: #F5E7C6;
+	}
+a:active {
+	color: #007045;
+	}
+	
+/* indent the first paragraph */
+p#firstparagraph {
+	text-indent: 25px;
+	}
+
+/* increase the line-height for paragraphs */
+p {
+	line-height: 1.2em;
+	}
+	
+/* limit the height of the mass production paragraph, add a scroll bar change font size */
+p#mp {
+	min-height: 10px;
+	max-height: 60px;
+	overflow: scroll;
+	font-size: 14px;
+	}
+	
+/* make the ford quote bolded and italicized */
+p#fordquote {
+	font-weight: bold;
+	font-style: italic;
+	}
+	
+/* create a box and set values for the ordered list */
+ol {
+	width: 320px;
+	border-width: 5px;
+	border-style: double;
+	border-color: #000;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px #777777;
+	padding: 10px 0px 10px 40px;
+	margin: 10px auto 10px auto;
+	background-color: rgb(188, 212, 216);
+	background-color: rgba(188, 212, 216, 0.5);
+	list-style-type: decimal-leading-zero;
+	}
+		
+/* center the heading */
+h2#top10 {
+	text-align: center;
+	}
+	
+/* use a text shadow for the gallery heading */
+h2#gallery {
+	background-color: #cccccc;
+	color: #ffffff;
+	text-shadow: 2px 2px 7px #111111;
+	}

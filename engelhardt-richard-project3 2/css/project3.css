@@ -1,0 +1,144 @@
+/* add a web based font */
+@font-face {
+	font-family: "introrustg-base2line";
+	src: url("Fonts/introrustg-base2line.otf");
+	}
+	
+/* choose font for headings h1, h2 */
+h1, h3 {
+	font-family: introrustg-base2line, Georgia, serif;
+	}
+
+/* choose font for the body */
+body {
+	font-family: Arial, sans-serif;
+/* This is where the gradient is made */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+43,000000+99&0+56,0+56,0+66,0.65+99 */
+ background: -moz-linear-gradient(top,  rgba(0,0,0,0) 43%, rgba(0,0,0,0) 56%, rgba(0,0,0,0) 66%, rgba(0,0,0,0.65) 99%);  /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 43%,rgba(0,0,0,0) 56%,rgba(0,0,0,0) 66%,rgba(0,0,0,0.65) 99%);  /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  rgba(0,0,0,0) 43%,rgba(0,0,0,0) 56%,rgba(0,0,0,0) 66%,rgba(0,0,0,0.65) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); *//* IE6-9 */
+
+	}
+
+/* add a background image, set values for the page */
+div#page {
+	background-image: url("../Images/pattern_158.gif");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	width: 60em;
+	border: .25em double #000;
+	padding: 1.25em;
+	margin: .625em auto .625em auto;
+	color: rgb(40, 61, 89);
+	background-color: rgb(200, 200, 200); 
+	opacity: 0.9;
+	}
+	
+/* clear floats, increase the line-height for paragraphs */
+p {
+	clear: both;
+	line-height: 1.2em;
+/*	background-image: url("../Images/parking.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;  */
+	}
+		
+/* choose font for h2 headings, clear floats */
+h2 {
+	font-family: Times, serif;
+	clear: both;
+	}
+	
+/* clear floats */
+h3 {
+	clear: both;
+	}
+
+/* display the unordered list items inline for the navigation */
+ul li {
+	display: inline;
+	margin-right: .625em;
+	}
+
+/* change the properties for links */
+a:link {
+	color: #81521C;
+	}
+a:visited {
+	color: #000;
+	}
+a:hover {
+	color: #F5E7C6;
+	}
+a:active {
+	color: #007045;
+	}
+	
+/* setup columns */
+.column1of2 {
+	float: left;
+	width: 45%;
+	margin: 1%;
+	padding: 0.5em;
+	}
+	
+.column2of2 {
+	float: left;
+	width: 45%;
+	margin: 1%;
+	padding: 0.5em;
+	clear: right;
+	}
+
+/* clear floats */
+.clear {
+	clear: both;
+	}
+	
+/* indent the first paragraph and add a background image to show in the top left where
+   the indent is */
+p#firstparagraph {
+	text-indent: 1.56em;
+    background: transparent url("../Images/icon.png") no-repeat left top;
+
+	}
+
+/* limit the height of the mass production paragraph, change font size */
+p#mp {
+	min-height: .625em;
+	max-height: 3.75em;
+/*	overflow: scroll; */
+	font-size: .875em;
+	}
+	
+/* make the ford quote bolded and italicized */
+p#fordquote {
+	font-weight: bold;
+	font-style: italic;
+	}
+	
+/* create a box and set values for the ordered list */
+ol {
+	width: 20em;
+	border: .3125em double #000;
+	border-radius: .625em;
+	box-shadow: .3125em .3125em .3125em .3125em #777777;
+	padding: .625em 0em .625em 2.5em;
+	margin: .625em auto .625em auto;
+	background-color: rgb(188, 212, 216);
+	background-color: rgba(188, 212, 216, 0.5);
+	list-style-type: decimal-leading-zero;
+	}
+		
+/* center the heading */
+h2#top10 {
+	text-align: center;
+	}
+	
+/* use a text shadow for the gallery heading */
+h2#gallery {
+	color: #ffffff;
+	text-shadow: .125em .125em .4375em #111111;
+	}
+	

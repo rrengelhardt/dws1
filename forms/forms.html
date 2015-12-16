@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Forms</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<div id="page">
+			<div id="logo">
+				<img src="images/logo.png" alt="Cafe Vincze" />
+			</div>
+			<ul id="navigation">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Location</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#" id="current-page">Contact</a></li>
+			</ul>
+			<div id="contact_content">
+				<h1>Contact</h1>
+					<form action="http://www.example.com/form.php" method="get">
+					<fieldset>
+						<p>
+							<legend>Join our email list</legend><br />
+							<label>Your name:
+							<input type="text" name="your-name" class="title"/></label><br />
+							<label>Your email:
+							<input type="text" name="email" class="title"/></label>
+						</p>
+						<p>
+							<label>Birthday Month
+								<select name ="birthday" class="title">
+									<option value="1">January</option>
+									<option value="1">February</option>
+									<option value="1">March</option>
+									<option value="1">April</option>
+									<option value="1">May</option>
+									<option value="1">June</option>
+									<option value="1">July</option>
+									<option value="1">August</option>
+									<option value="1">September</option>
+									<option value="1">October</option>
+									<option value="1">November</option>
+									<option value="1">December</option>
+								</select>
+							</label>
+						</p>
+					</fieldset>
+					<div id="submit">
+						<input type="submit" id="submit" name="submit" value="Register" />
+					</div>
+				</form>
+			</div><!-- /contact_content -->
+		</div><!-- /page -->
+	</body>
+</html>
