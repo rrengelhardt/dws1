@@ -21,7 +21,7 @@ body {
 
 	}
 
-/* add a background image, set values for the page */
+/* set values for the page, remove repeating background image, it looks better without it */
 div#page {
 
 /*	background-image: url("../Images/pattern_158.gif");
