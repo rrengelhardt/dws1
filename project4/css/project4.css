@@ -152,18 +152,18 @@ h2#gallery {
 	color: #ffffff;
 	text-shadow: .125em .125em .4375em #111111;
 	}
-	
+/* setup the table */	
 table {
 	background-color: #e0e9f0;
 	border: 0px;
 	border-spacing: 10px;
 	}
-	
+/* align the text left and add a background color of white */	
 th {
 	text-align: left;
 	background-color: #ffffff;
 	}
-	
+/* setup the table headers and cells */
 th, td {
 	padding: 5px 30px 5px 10px;
 	font-size: 90%;
@@ -173,7 +173,7 @@ th, td {
 	text-shadow: 1px 1px 1px #fff;
 	text-transform: uppercase;
 	}
-	
+/* apply a white background to even rows */
 tr.even {
 /*
 	background-color: #e8eff5;
@@ -181,12 +181,12 @@ tr.even {
 	background-color: #ffffff;
 
 	}
-	
+/* change text color to red, background to white, when hovered over */
 table:hover {
 	color: #cc3333;
 	background-color: #ffffff;
 	}
-	
+/* setup fieldset for form */
 fieldset {
 	width: 32.291%;
 	margin: 20px 0px 0px 0px;
@@ -194,24 +194,22 @@ fieldset {
 	background-image: url("../Images/parking.png");
 	background-repeat: repeat-y;
 	background-position: right bottom;
-
 	}
-	
+/* italicize the legend */
 legend {
 	font-style: italic;
 	color: #666666;
 	}
-
-
+/* set the input widths */
 input.title {
 	width: 45.625%;
 	}
-
+/* float labels left, with font size 90% of the default */
 label {
 	float: left;
 	font-size: 90%;
 	}
-		
+/* set values for the inputs */
 input {
 	color: #cc3333;
 	width: 12.5%;
@@ -220,12 +218,12 @@ input {
 	margin: 5px;
 	text-align: left;
 	}
-	
+/* change the background color and add a border when hovering over */
 input:hover {
 	background-color: #d0e2f0;
 	border: 1px solid #999999;
 	}
-
+/* change the background color and add a border when it has focus */
 input:focus {
 	background-color: #d0e2f0;
 	border: 1px solid #999999;

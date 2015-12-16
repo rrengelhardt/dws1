@@ -206,18 +206,19 @@
 	 	<!-- give contact details and email -->
 	   		<section class="contact-details"> 
 			<div id="contact_content">
-				<h1 id="contact">Contact</h1>
+				<h2 id="contact">Contact</h2>
 					<!-- where to send the gathered info to -->
 					<form action="http://www.example.com/form.php" method="get">
 					<fieldset>
-						<p>
+						
 							<legend>Join our email list</legend><br />
 							<label>Your name:
 							<input type="text" name="your-name" placeholder="Name" class="title"/></label><br />
+							<br />
 							<label>Your email:
 							<input type="text" name="email" class="title" required="required" /></label>
-						</p>
-						<p>
+							<br />
+							<br />
 							<label>Birthday Month
 								<select name ="birthday" class="title">
 									<option value="1">January</option>
@@ -234,18 +235,19 @@
 									<option value="1">December</option>
 								</select>
 							</label>
-						</p>
-						<br />
+						
+						
 						<p>
-							<label>Please select your gender:
+						<br />
+							Please select gender:
 							<br /> M
 							<input type="radio" name="gender" value="M" /> F
+						
 							<input type="radio" name="gender" value="F" />
-							</label>
 						</p>
 					</fieldset>
 					<div id="submit">
-						<input type="submit" id="submit" name="submit" value="Register" />
+						<input type="submit" name="submit" value="Register" />
 					</div> <!-- close submit button -->
 				</form>
 			</div><!-- /contact_content -->
